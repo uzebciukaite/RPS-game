@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>game rock paper scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h3>Choose either ROCK, PAPER or SCISSORS</h3>
+      <!-- <div>
+        <p>Player: <span id="playerPoints"></span></p>
+      </div> -->
+    </div>
+
+    <div class="container">
+      <div id="leftSideCont">
+        <div id="leftSidePl">
+          <p>Player :</p>
+
+          <span id="playerPoints"></span>
+        </div>
+        <div id="leftSideComp">
+          <p>Computer :</p>
+          <span id="compPoints"></span>
+        </div>
+      </div>
+      <div id="rightSideCont">
+        <div class="playersPart">
+          <div id="rightSidePl">
+            <div class="plRock"></div>
+            <div class="plPaper"></div>
+            <div class="plScissors"></div>
+          </div>
+        </div>
+        <div class="startGame">
+          <button id="startGame">START GAME</button>
+          <button id="tryAgain">TRY AGAIN</button>
+        </div>
+        <div class="compPart">
+          <div id="rightSideComp">
+            <div class="plRock comp"></div>
+            <div class="plPaper comp"></div>
+            <div class="plScissors comp"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
